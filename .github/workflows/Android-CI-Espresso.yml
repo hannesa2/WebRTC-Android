@@ -54,4 +54,4 @@ jobs:
         with:
           if-no-files-found: error
           name: WebRTC-Lint-report
-          path: app/build/reports/lint-results*.html
+          path: ./**/build/reports/lint-results*.html
