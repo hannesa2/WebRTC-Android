@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "WebRTC-streaming"
 include ':WebRTC-streaming'
+include ':WebRTC-consuming'
