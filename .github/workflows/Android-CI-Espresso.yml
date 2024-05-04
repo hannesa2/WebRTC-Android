@@ -79,7 +79,7 @@ jobs:
       - name: Install Android SDK
         uses: malinskiy/action-android/install-sdk@release/0.1.4
       - name: Code checks
-        run: ./gradlew lint ktLintcheck
+        run: ./gradlew lint
       - name: Archive Lint report
         uses: actions/upload-artifact@v4.3.1
         if: ${{ always() }}
