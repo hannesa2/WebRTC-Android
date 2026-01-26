@@ -49,7 +49,7 @@ jobs:
       - name: Code checks
         run: ./gradlew lint
       - name: Archive Lint report
-        uses: actions/upload-artifact@v5.0.0
+        uses: actions/upload-artifact@v6.0.0
         if: ${{ always() }}
         with:
           if-no-files-found: error
