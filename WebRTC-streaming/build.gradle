@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'info.hanens.webrtc.server'
+    namespace 'info.hannes.webrtc.server'
     compileSdk 36
 
     defaultConfig {
-        applicationId "info.hanens.webrtc.server"
+        applicationId "info.hannes.webrtc.server"
         minSdk 26
         targetSdk 36
         versionCode 1

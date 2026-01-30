@@ -1,4 +1,4 @@
-package info.hanens.webrtc.server
+package info.hannes.webrtc.server
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
