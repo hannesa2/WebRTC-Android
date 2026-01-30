@@ -8,7 +8,7 @@ espressoCore = "3.7.0"
 appcompat = "1.7.1"
 material = "1.13.0"
 webrtcAndroidFramework = "2.11.1"
-activity = "1.10.1"
+activity = "1.12.3"
 constraintlayout = "2.2.1"
 
 [libraries]
