@@ -9,7 +9,7 @@ on:
 jobs:
   buildTest:
     name: Build & Test JDK ${{ matrix.java_version }}
-    runs-on: macOS-14
+    runs-on: ubuntu-26.04
     strategy:
       matrix:
         java_version: [ 17 ]
@@ -30,7 +30,7 @@ jobs:
         run: ./gradlew assembleDebug
   Check:
     name: Check
-    runs-on: macOS-14
+    runs-on: ubuntu-26.04
     strategy:
       matrix:
         java_version: [ 17 ]
